@@ -17,7 +17,7 @@ Pour utiliser ce code, il est nécessaire de suivre l'instruction énoncée ci-d
 ![image](https://user-images.githubusercontent.com/71136228/101946381-3063c700-3bef-11eb-8146-5698131e1a20.png)
 
 
-- Par ailleurs, il est également possible de retrouver les résultats dans un dossier nommé "résultat" qui a été créé grâce à la ligne de code suivante : 
+- Par ailleurs, il est également possible de retrouver les résultats dans un dossier nommé "resultat" qui a été créé grâce à la ligne de code suivante : 
 
 
 ![image](https://user-images.githubusercontent.com/71136228/101946604-73259f00-3bef-11eb-9d88-74193364c28e.png)
