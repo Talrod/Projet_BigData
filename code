@@ -1,0 +1,15 @@
+from pyspark import SparkContext, SparkConf 
+
+Sparkconf = SparkConf().setAppName("wordCount").setMaster("local") 
+sc = SparkContext(conf = Sparkconf)
+
+if __name__ == '__main__': 
+    text_file = sc.textFile("sample.txt")
+    counts = text_file.flatMap(lambda line: line.split(" ")) \
+                .map(lambda word: (word, 1)) \
+                .reduceByKey(lambda a, b: a + b)
+
+    for i in counts.collect():
+        print(i) 
+
+    counts.coalesce(1).saveAsTextFile('reponse.txt')
