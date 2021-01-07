@@ -44,10 +44,10 @@ n = 100000
 startTime = time() #Temps au début
 estimationPi_Spark = pi_estimator_spark(n) 
 print("Temps d'execution avec Spark :", time()-startTime)
-print("Pi est environ égale à %f" % estimationPi_Spark)
+print("Pi est environ egale a %f" % estimationPi_Spark)
 
 #Execution de la fonction pour calculer Pi avec Numpy et mesure du temps d'éxécution.
 startTime = time() #Temps au début
 estimationPi_Numpy = pi_estimator_numpy(n) 
 print("Temps d'execution avec Numpy :", time()-startTime)
-print("Pi est environ égale à %f" % estimationPi_Numpy)
+print("Pi est environ egale a %f" % estimationPi_Numpy)
