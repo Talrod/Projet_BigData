@@ -32,7 +32,7 @@ def pi_estimator_spark(n):
 def pi_estimator_numpy(n):  
     count = 0
     for i in range(n):
-        a = is_point_inside_unit_circle()
+        a = is_point_inside_unit_circle(1)
         if a == 1:
             count += 1
     return 4*count/n
