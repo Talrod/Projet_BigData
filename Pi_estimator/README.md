@@ -12,3 +12,10 @@ Ce projet a pour objectif d'estimer pi en utilisant Spark et Numpy.
 
 ![](https://github.com/Talrod/Projet_BigData/blob/main/Pi_estimator/Output/Output.PNG)
 
+# Comparaison des résultats
+
+| n = 100000 | Spark | Numpy |
+|------------|:------:|------:|
+|Temps d'éxécution (secondes)| 8.9586 | 0.0404 |
+|Valeur de Pi | 3.150800 | 3.138240 |
+|Écart % Math.pi | 0.29% |  -0.11% | 
