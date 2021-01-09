@@ -1,6 +1,8 @@
+# Estimation de Pi
+
 Ce projet a pour objectif d'estimer pi en utilisant Spark et Numpy.
 
-# Instructions
+## Instructions
 
 :arrow_forward: Ouverture de l'invite de commande
 
@@ -12,7 +14,7 @@ Ce projet a pour objectif d'estimer pi en utilisant Spark et Numpy.
 
 ![](https://github.com/Talrod/Projet_BigData/blob/main/Pi_estimator/Output/Output.PNG)
 
-# Comparaison des résultats
+## Comparaison des résultats
 
 | n = 100000 | Spark | Numpy |
 |------------|:------:|------:|
