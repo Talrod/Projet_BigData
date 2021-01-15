@@ -19,7 +19,7 @@ spark = SparkSession.builder\
 
 data = spark.read\
           .option("header", True)\
-          .csv(r"D:\Cours\M2\Spark-Hadoop\TD4\walmart_stock.csv")
+          .csv("walmart_stock.csv")
 
 # Showing top 5 rows
 data.show(5)
