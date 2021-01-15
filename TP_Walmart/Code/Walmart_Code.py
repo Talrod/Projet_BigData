@@ -133,10 +133,10 @@ spark.sql("""select year(Date) as Year, max(High) as Max_High from data_SQL grou
 ## Question 12 - What is the average Close for each Calendar Month ?
 
 ### Python
-data.groupby(year("Date").alias("Year"),month("Date").alias("Month"))\
+data.groupby(month("Date").alias("Month"))\
     .agg(avg(col("Close")).alias("Mean_Close"))\
-    .orderBy("Year","Month")\
+    .orderBy("Month")\
     .show()
 
 ### SQL
-spark.sql("""select year(Date) as Year, month(Date) as Month, mean(Close) as Mean from data_SQL group by Year,Month order by Year,Month""").show()
+spark.sql("""select month(Date) as Month, mean(Close) as Mean_Close from data_SQL group by Month order by Month""").show()
