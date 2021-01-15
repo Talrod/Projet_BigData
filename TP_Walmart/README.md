@@ -12,6 +12,6 @@ Questions 5 to 12 were solved using Pyspark and SQL queries.
 
 :arrow_forward: Write the instruction : 
 
-     "Walmart_TP.py"
+     "Walmart_Code.py"
 
 :arrow_forward: After running the programme, the various answers to the questions will be displayed directly in the console.
