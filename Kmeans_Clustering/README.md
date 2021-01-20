@@ -6,7 +6,7 @@ L'objectif de ce projet est de réaliser un clustering de l'emplacement des stat
 
 :arrow_forward: Télécharger le dossier **_"Kmeans_clustering"_**.
 
-:arrow_forward: Ourvrir le fichier code **_"Projet_K_means_.ipynb"_** situé dans le dossier **_"code"_** avec Jupyter.
+:arrow_forward: Ourvrir le fichier code **_"Projet_K_means_.ipynb"_** situé dans le dossier **"code"** avec Jupyter.
 
 :arrow_forward: Executer les lignes afin de faire apparaitre les résultats.
 
