@@ -10,7 +10,7 @@ L'objectif de ce projet est de réaliser un clustering de l'emplacement des stat
 
 :arrow_forward: Executer les lignes afin de faire apparaitre les résultats.
 
-:heavy_exclamation_mark: Le fichier **_"properties.conf"_** est déjà présent dans le dossier **configuration** ce dépot, mais l'entrée numéro 3 du code permet de le créer.  
+:heavy_exclamation_mark: Le fichier **_"properties.conf"_** est déjà présent dans le dossier **"configuration"** ce dépot, mais l'entrée numéro 3 du code permet de le créer.  
   
     
     
