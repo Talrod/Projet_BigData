@@ -1,6 +1,7 @@
 # Projet Final : Système de gestion d’emprunt dans une librairie
 
-L'objectif de ce projet est de répondre à des recherches spécifiques à partir d'une base de donnée d'une librairie créée pour cet exercie.
+L'objectif de ce projet est de créer des bases de données d'une librairie et de répondre à des recherches spécifiques dans celles-ci.
+Les recherches sont effectuées à la fois en DSL et en SQL.
 
 ## Instructions
 :arrow_forward: Téléchargez et enregistrez le code dans le fichier bin du dossier Spark.
